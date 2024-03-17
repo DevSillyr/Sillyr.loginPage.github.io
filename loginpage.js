@@ -11,7 +11,7 @@ window.onload = function() {
 
         if (username == "babylein" && password == "baby") {
             console.log("right credentials")
-            window.location.replace("https://devsillyr.github.io/DinoGame");
+            window.location.href = "http://devsillyr.github.io/DinoGame";
         }
     });
 }
