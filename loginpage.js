@@ -10,8 +10,8 @@ window.onload = function() {
         let password = document.getElementById("password").value
 
         if (username == "babylein" && password == "baby") {
-            console.log("right credentials")
-            window.location.href = "http://devsillyr.github.io/DinoGame";
+            window.location.href("https://devsillyr.github.io/DinoGame/");
+            console.log("right credentials");
         }
     });
 }
